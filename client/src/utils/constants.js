@@ -6,7 +6,7 @@ export const STORE = {
   name: 'Pushpa Fabrics',
   tagline: 'Elegance Woven in Every Thread',
   description:
-    'Premium textile and fashion store offering sarees, silk fabrics, lehengas, wedding dresses, and tailoring services in Coimbatore.',
+    'Premium textile and fashion store offering sarees, silk fabrics, lehengas, wedding dresses, and tailoring services in Bengaluru.',
   address: 'Bengaluru, Karnataka',
   phone: '+91 **********',
   phone2: '+91 **********',

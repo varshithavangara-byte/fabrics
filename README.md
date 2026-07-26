@@ -1,6 +1,6 @@
 # 🌺 Pushpa Fabrics — Full-Stack Business Website
 
-A modern, elegant, responsive, and SEO-friendly web platform built for **Pushpa Fabrics**, a premium textile, saree, and fashion store in Coimbatore.
+A modern, elegant, responsive, and SEO-friendly web platform built for **Pushpa Fabrics**, a premium textile, saree, and fashion store in Bengaluru.
 
 ---
 

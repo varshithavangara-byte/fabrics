@@ -90,7 +90,7 @@ export const whyChooseUs = [
     icon: 'MdLocalShipping',
     title: 'Home Delivery',
     description:
-      'We deliver tailored outfits and orders across Coimbatore. Outstation delivery available for select items.',
+      'We deliver tailored outfits and orders across Bengaluru. Outstation delivery available for select items.',
   },
 ];
 
