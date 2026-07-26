@@ -54,7 +54,7 @@ const HeroSection = () => {
               color: '#FFF8F3',
             }}
           >
-            Elegance Women in Every <span style={{ color: 'var(--secondary)', italic: 'italic' }}>Thread</span>
+            Elegance in Every <span style={{ color: 'var(--secondary)', italic: 'italic' }}>Thread</span>
           </motion.h1>
 
           <motion.p
