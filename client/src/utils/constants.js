@@ -11,12 +11,12 @@ export const STORE = {
   phone: '+91 **********',
   phone2: '+91 **********',
   whatsapp: '91 **********',
-  email: 'info@pushpafabrics.com',
+  email: 'abc@gmail.com',
   mapUrl: import.meta.env.VITE_MAPS_EMBED_URL,
   social: {
-    instagram: 'https://instagram.com/pushpafabrics',
-    facebook: 'https://facebook.com/pushpafabrics',
-    youtube: 'https://youtube.com/@pushpafabrics',
+    instagram: 'https://instagram.com',
+    facebook: 'https://facebook.com',
+    youtube: 'https://youtube.com',
   },
   hours: {
     weekdays: 'Monday – Saturday: 9:00 AM – 8:00 PM',
