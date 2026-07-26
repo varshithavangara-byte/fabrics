@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary: #8B0000;
+  --primary-hover: #700000;
+  --primary-light: #FDF2F2;
+  --secondary: #D4AF37;
+  --secondary-hover: #B89528;
+  --secondary-light: #FFFBF0;
+  --bg-main: #FFF8F3;
+  --bg-card: #FFFFFF;
+  --text-dark: #222222;
+  --text-muted: #666666;
+  --border-light: #EFE7E0;
+  --gold-gradient: linear-gradient(135deg, #D4AF37 0%, #FFDF73 50%, #B89528 100%);
+  --crimson-gradient: linear-gradient(135deg, #8B0000 0%, #B22222 100%);
+  --shadow-sm: 0 2px 8px rgba(139, 0, 0, 0.05);
+  --shadow-md: 0 8px 24px rgba(139, 0, 0, 0.08);
+  --shadow-lg: 0 16px 36px rgba(139, 0, 0, 0.12);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: var(--text-dark);
+  background-color: var(--bg-main);
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF3788;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+/* Reusable UI Components */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title span {
+  color: var(--secondary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.section-title h2 {
+  font-size: 2.75rem;
+  color: var(--primary);
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.section-title p {
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+/* Buttons */
+.btn-gold {
+  background: var(--gold-gradient);
+  color: #222;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.35);
+  transition: var(--transition);
+  border: none;
+}
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5);
+}
+
+.btn-crimson {
+  background: var(--crimson-gradient);
+  color: #FFF;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.3);
+  transition: var(--transition);
+  border: none;
+}
+.btn-crimson:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(139, 0, 0, 0.45);
+}
+
+.btn-outline-gold {
+  background: transparent;
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: var(--transition);
+}
+.btn-outline-gold:hover {
+  background: var(--secondary);
+  color: #222;
+}
+
+.btn-outline-crimson {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: var(--transition);
+}
+.btn-outline-crimson:hover {
+  background: var(--primary);
+  color: #FFF;
+}
+
+/* Card Styling */
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Page Header / Banner */
+.page-banner {
+  background: linear-gradient(rgba(20, 0, 0, 0.75), rgba(20, 0, 0, 0.85)), url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+  padding: 100px 0;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+}
+.page-banner h1 {
+  font-size: 3.2rem;
+  color: var(--secondary);
+  margin-bottom: 12px;
+}
+.page-banner p {
+  font-size: 1.2rem;
+  color: #E0E0E0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 50px 0;
+  }
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  .page-banner h1 {
+    font-size: 2.2rem;
+  }
+}

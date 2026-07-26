@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Block admin/api routes from indexing
+Disallow: /api/
+
+Sitemap: https://www.pushpafabrics.com/sitemap.xml
