@@ -7,7 +7,7 @@ export const STORE = {
   tagline: 'Elegance Woven in Every Thread',
   description:
     'Premium textile and fashion store offering sarees, silk fabrics, lehengas, wedding dresses, and tailoring services in Coimbatore.',
-  address: '123 Textile Market, RS Puram, Coimbatore, Tamil Nadu – 641002',
+  address: 'Bengaluru, Karnataka',
   phone: '+91 **********',
   phone2: '+91 **********',
   whatsapp: '91 **********',
