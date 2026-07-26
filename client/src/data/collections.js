@@ -12,11 +12,11 @@ export const collections = [
       'Explore our exquisite range of handloom, cotton, and designer sarees crafted for every occasion. From daily wear to festive celebrations, each saree tells a story of grace and tradition.',
     longDescription:
       'Our saree collection brings together the finest weaves from across India — Kanjivaram, Banarasi, Chanderi, Pochampally, and more. Each piece is hand-picked for quality, colour fastness, and craftsmanship. Whether you are shopping for a puja, a wedding function, or simply to add to your ethnic wardrobe, we have something for every taste and budget.',
-    image: './images/sarees/saree-1.jpg',
+    image: './images/sarees/saree-1.jpeg',
     images: [
-      './images/sarees/saree-1.jpg',
-      './images/sarees/saree-2.jpg',
-      './images/sarees/saree-3.jpg',
+      './images/sarees/saree-1.jpeg',
+      './images/sarees/saree-2.jpeg',
+      './images/sarees/saree-3.jpeg',
     ],
     priceRange: '₹800 – ₹15,000',
     featured: true,
