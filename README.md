@@ -90,7 +90,7 @@ npm install
 Configure environment variables (Optional, defaults provided):
 ```env
 VITE_API_BASE_URL=http://localhost:5000/api
-VITE_WHATSAPP_NUMBER=919876543210
+VITE_WHATSAPP_NUMBER=91**********
 ```
 Run Vite development server:
 ```bash

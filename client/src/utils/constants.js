@@ -8,9 +8,9 @@ export const STORE = {
   description:
     'Premium textile and fashion store offering sarees, silk fabrics, lehengas, wedding dresses, and tailoring services in Coimbatore.',
   address: '123 Textile Market, RS Puram, Coimbatore, Tamil Nadu – 641002',
-  phone: '+91 98765 43210',
-  phone2: '+91 90123 45678',
-  whatsapp: '919876543210',
+  phone: '+91 **********',
+  phone2: '+91 **********',
+  whatsapp: '91 **********',
   email: 'info@pushpafabrics.com',
   mapUrl: import.meta.env.VITE_MAPS_EMBED_URL,
   social: {

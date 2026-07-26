@@ -103,7 +103,7 @@ const ContactForm = () => {
               required
               value={formData.phone}
               onChange={handleChange}
-              placeholder="e.g. +91 9876543210"
+              placeholder="e.g. +91 **********"
               style={{ width: '100%', padding: '12px', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)', outline: 'none' }}
             />
           </div>
