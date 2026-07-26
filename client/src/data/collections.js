@@ -11,7 +11,7 @@ export const collections = [
     description:
       'Explore our exquisite range of handloom, cotton, and designer sarees crafted for every occasion. From daily wear to festive celebrations, each saree tells a story of grace and tradition.',
     longDescription:
-      'Our saree collection brings together the finest weaves from across India — Kanjivaram, Banarasi, Chanderi, Pochampally, and more. Each piece is hand-picked for quality, colour fastness, and craftsmanship. Whether you are shopping for a puja, a wedding function, or simply to add to your ethnic wardrobe, we have something for every taste and budget.',
+      'Our saree collection brings together the finest weaves from across India — Kanchivaram, Banarasi, Chanderi, Pochampally, and more. Each piece is hand-picked for quality, colour fastness, and craftsmanship. Whether you are shopping for a puja, a wedding function, or simply to add to your ethnic wardrobe, we have something for every taste and budget.',
     image: './images/sarees/saree-1.jpeg',
     images: [
       './images/sarees/saree-1.jpeg',
@@ -28,9 +28,9 @@ export const collections = [
     title: 'Silk Sarees',
     subtitle: 'Luxurious Pure Silk',
     description:
-      'Premium Kanjivaram and Mysore silk sarees that radiate luxury. Perfect for weddings, receptions, and grand celebrations.',
+      'Premium Kanchivaram and Mysore silk sarees that radiate luxury. Perfect for weddings, receptions, and grand celebrations.',
     longDescription:
-      'Our silk saree collection is a tribute to the rich silk-weaving heritage of South India. We stock authentic Kanjivaram silk with zari borders, Mysore crepe silk, Dharmavaram silk, and more. Each saree comes with an authenticity tag. Ideal for brides, mothers of the bride, and anyone who appreciates the timeless elegance of pure silk.',
+      'Our silk saree collection is a tribute to the rich silk-weaving heritage of South India. We stock authentic Kanchivaram silk with zari borders, Mysore crepe silk, Dharmavaram silk, and more. Each saree comes with an authenticity tag. Ideal for brides, mothers of the bride, and anyone who appreciates the timeless elegance of pure silk.',
     image: './images/silk-sarees/silk-1.jpeg',
     images: [
       './images/silk-sarees/silk-1.jpeg',
