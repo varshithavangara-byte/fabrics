@@ -100,7 +100,7 @@ export const galleryImages = [
   },
   {
     id: 13,
-    src: './images/gallery/couple-dress.jpeg',
+    src: './images/gallery/dress.jpeg',
     alt: 'Rental sherwani for groom',
     category: 'rental',
     title: 'Rental Sherwani',
