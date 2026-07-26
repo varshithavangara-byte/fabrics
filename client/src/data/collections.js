@@ -31,11 +31,11 @@ export const collections = [
       'Premium Kanjivaram and Mysore silk sarees that radiate luxury. Perfect for weddings, receptions, and grand celebrations.',
     longDescription:
       'Our silk saree collection is a tribute to the rich silk-weaving heritage of South India. We stock authentic Kanjivaram silk with zari borders, Mysore crepe silk, Dharmavaram silk, and more. Each saree comes with an authenticity tag. Ideal for brides, mothers of the bride, and anyone who appreciates the timeless elegance of pure silk.',
-    image: '/images/silk-sarees/silk-1.jpg',
+    image: './images/silk-sarees/silk-1.jpeg',
     images: [
-      '/images/silk-sarees/silk-1.jpg',
-      '/images/silk-sarees/silk-2.jpg',
-      '/images/silk-sarees/silk-3.jpg',
+      './images/silk-sarees/silk-1.jpeg',
+      './images/silk-sarees/silk-2.jpeg',
+      './images/silk-sarees/silk-3.jpeg',
     ],
     priceRange: '₹5,000 – ₹50,000',
     featured: true,
