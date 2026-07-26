@@ -50,11 +50,11 @@ export const collections = [
       'High-quality designer fabrics including georgette, chiffon, velvet, brocade, and more — sold by the metre for custom stitching.',
     longDescription:
       'Choose from our wide selection of imported and domestic designer fabrics. We carry georgette, chiffon, organza, velvet, brocade, net, and linen in hundreds of colours and prints. Perfect for tailoring into suits, blouses, lehengas, or curtains. Our fabric experts can guide you on the right fabric for your vision.',
-    image: '/images/designer-fabrics/fabric-1.jpg',
+    image: './images/designer-fabrics/fabric-1.jpg',
     images: [
-      '/images/designer-fabrics/fabric-1.jpg',
-      '/images/designer-fabrics/fabric-2.jpg',
-      '/images/designer-fabrics/fabric-3.jpg',
+      './images/designer-fabrics/fabric-1.jpg',
+      './images/designer-fabrics/fabric-2.jpg',
+      './images/designer-fabrics/fabric-3.jpg',
     ],
     priceRange: '₹200 – ₹3,000 per metre',
     featured: true,
