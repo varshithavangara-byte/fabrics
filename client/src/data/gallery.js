@@ -79,7 +79,7 @@ export const galleryImages = [
   },
   {
     id: 10,
-    src: './images/gallery/couple-dress.jpeg',
+    src: './images/gallery/matching-dress.jfif',
     alt: 'Bridal couple matching outfits',
     category: 'wedding',
     title: 'Couple Wedding Set',
