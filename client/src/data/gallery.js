@@ -72,7 +72,7 @@ export const galleryImages = [
   },
   {
     id: 9,
-    src: './images/gallery/saree-3.jpeg',
+    src: './images/gallery/boat-neck.jfif',
     alt: 'Boat neck designer blouse',
     category: 'blouses',
     title: 'Boat Neck Blouse',
