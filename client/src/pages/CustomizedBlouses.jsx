@@ -8,10 +8,10 @@ const CustomizedBlouses = () => {
   const [activeNeck, setActiveNeck] = useState(0);
 
   const neckStyles = [
-    { title: 'Boat Neck Zari Work', desc: 'Elegant high boat neck embellished with golden zari work and stone borders.', price: '₹1,200', img: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80' },
-    { title: 'Deep U Back with Dori', desc: 'Traditional deep U back featuring handcrafted dori tassels and latkan embellishments.', price: '₹950', img: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80' },
-    { title: 'Sweetheart Neck Maggam', desc: 'Royal sweetheart neckline featuring intricate Maggam hand embroidery.', price: '₹2,500', img: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80' },
-    { title: 'High Neck Collar Style', desc: 'Modern high-neck mandarin collar pattern perfect for silk and tissue sarees.', price: '₹1,500', img: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80' },
+    { title: 'Boat Neck Zari Work', desc: 'Elegant high boat neck embellished with golden zari work and stone borders.', price: '₹1,200', img: './images/gallery/boat-neck.jpeg' },
+    { title: 'Deep U Back with Dori', desc: 'Traditional deep U back featuring handcrafted dori tassels and latkan embellishments.', price: '₹950', img: './images/gallery/deep-u-back.jpeg' },
+    { title: 'Sweetheart Neck Maggam', desc: 'Royal sweetheart neckline featuring intricate Maggam hand embroidery.', price: '₹2,500', img: './images/gallery/royal-dress.jpg' },
+    { title: 'High Neck Collar Style', desc: 'Modern high-neck mandarin collar pattern perfect for silk and tissue sarees.', price: '₹1,500', img: './images/gallery/high-neck.jpeg' },
   ];
 
   const measurementSteps = [

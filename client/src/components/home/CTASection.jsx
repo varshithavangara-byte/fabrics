@@ -8,7 +8,7 @@ const CTASection = () => {
   return (
     <section
       style={{
-        background: `linear-gradient(rgba(139, 0, 0, 0.92), rgba(100, 0, 0, 0.95)), url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat`,
+        background: `linear-gradient(rgba(139, 0, 0, 0.92), rgba(100, 0, 0, 0.95)), url('./images/gallery/hero-banner.jpeg') center/cover no-repeat`,
         padding: '80px 0',
         color: '#FFF',
         textAlign: 'center',

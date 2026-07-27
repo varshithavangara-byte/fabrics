@@ -72,7 +72,7 @@ const GalleryGrid = () => {
                 alt={img.alt}
                 loading="lazy"
                 onError={(e) => {
-                  e.target.src = 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80';
+                  e.target.src = './images/gallery/hero-banner.jpeg';
                 }}
                 style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s ease' }}
               />

@@ -25,7 +25,7 @@ const AboutPreview = () => {
               }}
             >
               <img
-                src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80"
+                src="./images/gallery/cta-banner.jpeg"
                 alt="Pushpa Fabrics Store Experience"
                 style={{ width: '100%', height: '420px', objectFit: 'cover' }}
               />

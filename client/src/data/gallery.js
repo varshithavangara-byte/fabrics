@@ -72,14 +72,14 @@ export const galleryImages = [
   },
   {
     id: 9,
-    src: './images/gallery/boat-neck.jfif',
+    src: './images/gallery/boat-neck.jpeg',
     alt: 'Boat neck designer blouse',
     category: 'blouses',
     title: 'Boat Neck Blouse',
   },
   {
     id: 10,
-    src: './images/gallery/matching-dress.jfif',
+    src: './images/gallery/matching-dress.jpeg',
     alt: 'Bridal couple matching outfits',
     category: 'wedding',
     title: 'Couple Wedding Set',
@@ -100,7 +100,7 @@ export const galleryImages = [
   },
   {
     id: 13,
-    src: './images/gallery/groom-dress.jfif',
+    src: './images/gallery/groom-dress.jpeg',
     alt: 'Rental sherwani for groom',
     category: 'rental',
     title: 'Rental Sherwani',
@@ -114,7 +114,7 @@ export const galleryImages = [
   },
   {
     id: 15,
-    src: './images/gallery/wedding-lehenga.jfif',
+    src: './images/gallery/wedding-lehenga.jpeg',
     alt: 'Heavy embroidery lehenga for wedding',
     category: 'lehengas',
     title: 'Embroidery Lehenga',

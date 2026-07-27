@@ -11,7 +11,7 @@ const HeroSection = () => {
       style={{
         position: 'relative',
         minHeight: '88vh',
-        background: `linear-gradient(rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat`,
+        background: `linear-gradient(rgba(20, 0, 0, 0.7), rgba(20, 0, 0, 0.8)), url('./images/gallery/hero-banner.jpeg') center/cover no-repeat`,
         display: 'flex',
         alignItems: 'center',
         color: '#FFF',

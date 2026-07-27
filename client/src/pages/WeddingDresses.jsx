@@ -6,10 +6,10 @@ import ContactForm from '../components/contact/ContactForm';
 
 const WeddingDresses = () => {
   const weddingCategories = [
-    { title: 'Bridal Kanjivaram Silks', desc: 'Heavy zari border pure silk sarees crafted for muhurtham rituals.', price: 'From ₹15,000', img: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80' },
-    { title: 'Bridal Designer Lehengas', desc: 'Hand-embroidered zardozi and raw silk lehengas for grand receptions.', price: 'From ₹18,000', img: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80' },
-    { title: 'Groom Royal Sherwanis', desc: 'Silk sherwanis with matching safa, dupatta, and embroidery details.', price: 'From ₹12,000', img: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80' },
-    { title: 'Bride & Groom Match Sets', desc: 'Colour-coordinated saree & dhoti/kurta sets for engagement photos.', price: 'From ₹8,000', img: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80' },
+    { title: 'Bridal Kanjivaram Silks', desc: 'Heavy zari border pure silk sarees crafted for muhurtham rituals.', price: 'From ₹15,000', img: './images/gallery/saree-1.jpeg' },
+    { title: 'Bridal Designer Lehengas', desc: 'Hand-embroidered zardozi and raw silk lehengas for grand receptions.', price: 'From ₹18,000', img: './images/gallery/wedding-lehenga.jpeg' },
+    { title: 'Groom Royal Sherwanis', desc: 'Silk sherwanis with matching safa, dupatta, and embroidery details.', price: 'From ₹12,000', img: './images/gallery/groom-dress.jpeg' },
+    { title: 'Bride & Groom Match Sets', desc: 'Colour-coordinated saree & dhoti/kurta sets for engagement photos.', price: 'From ₹8,000', img: './images/gallery/matching-dress.jpeg' },
   ];
 
   return (
