@@ -114,7 +114,7 @@ export const galleryImages = [
   },
   {
     id: 15,
-    src: './images/gallery/lehenga.jpg',
+    src: './images/gallery/wedding-lehenga.jfif',
     alt: 'Heavy embroidery lehenga for wedding',
     category: 'lehengas',
     title: 'Embroidery Lehenga',
