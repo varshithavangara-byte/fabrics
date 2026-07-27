@@ -86,7 +86,7 @@ export const galleryImages = [
   },
   {
     id: 11,
-    src: './images/gallery/silk-1.jpg',
+    src: './images/gallery/banarasi-saree.jfif',
     alt: 'Banarasi silk saree collection',
     category: 'sarees',
     title: 'Banarasi Saree',
