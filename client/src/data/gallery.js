@@ -107,7 +107,7 @@ export const galleryImages = [
   },
   {
     id: 14,
-    src: './images/gallery/dharmavaram-silk.jfif',
+    src: './images/gallery/dharmavaram-saree.jfif',
     alt: 'Dharmavaram silk saree',
     category: 'silk-sarees',
     title: 'Dharmavaram Silk',
