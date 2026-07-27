@@ -91,8 +91,8 @@ export const collections = [
     image: './images/blouses/blouse-1.jfif',
     images: [
       './images/blouses/blouse-1.jfif',
-      './images/blouses/blouse-2.jpeg',
-      './images/blouses/blouse-3.jpeg',
+      './images/blouses/blouse-2.jfif',
+      './images/blouses/blouse-1.jfif',
     ],
     priceRange: '₹400 – ₹3,500',
     featured: false,
