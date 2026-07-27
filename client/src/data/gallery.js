@@ -16,7 +16,7 @@ export const galleryCategories = [
 export const galleryImages = [
   {
     id: 1,
-    src: './images/gallery/gallery.jpeg',
+    src: './images/gallery/silk-1.jpeg',
     alt: 'Kanchivaram silk saree in deep red and gold',
     category: 'silk-sarees',
     title: 'Kanchivaram Silk Saree',
@@ -44,7 +44,7 @@ export const galleryImages = [
   },
   {
     id: 5,
-    src: './images/gallery/gallery-5.jpeg',
+    src: './images/gallery/saree-1.jpeg',
     alt: 'Cotton handloom saree collection',
     category: 'sarees',
     title: 'Handloom Collection',
