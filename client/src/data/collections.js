@@ -95,7 +95,7 @@ export const collections = [
       'https://pin.it/OqpDldr3E',
     ],
     priceRange: '₹400 – ₹3,500',
-    featured: false,
+    featured: true,
     tags: ['blouse', 'tailoring', 'custom', 'stitching'],
   },
   {
