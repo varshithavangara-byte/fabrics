@@ -88,11 +88,11 @@ export const collections = [
       'Designer blouses tailored to your exact measurements. Choose from 50+ neck designs, sleeve styles, and embroidery patterns.',
     longDescription:
       'A perfect blouse makes the entire saree look. Our expert tailors craft blouses to your exact measurements with a wide variety of neck designs — boat neck, sweetheart, high neck, halter, back-open, and more. Embroidery, mirror work, lace borders, and fabric printing are also available. Delivery in 7–10 working days.',
-    image: './images/blouses/blouse-1.jpeg',
+    image: 'https://pin.it/5FTSfYUWS',
     images: [
-      './images/blouses/blouse-1.jpeg',
-      './images/blouses/blouse-2.jpeg',
-      './images/blouses/blouse-3.jpeg',
+      'https://pin.it/5FTSfYUWS',
+      'https://pin.it/6Ek3EvL9o',
+      'https://pin.it/OqpDldr3E',
     ],
     priceRange: '₹400 – ₹3,500',
     featured: false,
